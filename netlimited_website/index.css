@@ -1,0 +1,30 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/*3B5D4F*/
+/*F0F2F1*/
+.landing--page{
+
+    color:#F0F2F1;
+    height: 100vh;
+    background: url('main.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   overflow: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:center;
+}
+ li a {
+    padding: 10px;
+}
